@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Apartment_Tour_Scheduler</string>
+    <string name="welcome_textView">Welcome to the Tempo Riverpark</string>
+
+    <string name="schedule_button">Schedule Tour</string>
+    <string name="instruction_textView">Click Below Button To Book an Appointment</string>
+
+    <string name="txtChooseDateTime">Choose Date and Time:</string>
+    <string name="txtDateTimeInput">Select Date and Time</string>
+    <string name="textChoosePlan">Choose floor Plan:</string>
+    <string name="aptTypeStudio">Studio</string>
+    <string name="aptTypeOneBed">1 Bedroom</string>
+    <string name="aptTypeTwoBed">2 Bedroom</string>
+    <string name="aptTypeThreeBed">3 Bedroom</string>
+    <string name="chooseProperty">Choose Apartment: </string>
+    <string name="txtPropertyInput">Select Apartment</string>
+    <string name="continue_apt_button">Continue</string>
+
+    <string name="txtFirstNameMsg">First Name :</string>
+    <string name="txtLastNameMsg">Last Name :</string>
+    <string name="txtEmailMsg">Email :</string>
+    <string name="txtPhoneMsg">Contact No. :</string>
+
+    <string name="textConfirmationMsg">Please confirm your appointment by providing below information :</string>
+    <string name="btnConfirm">Confirm</string>
+    <string name="appointmentConfirmMsg">Scheduled an Appointment</string>
+    <string name="firstNameValidateMsg">First name is required</string>
+    <string name="lastNameValidateMsg">Last name is required</string>
+    <string name="emailValidateMsg">Email address is required</string>
+    <string name="contactValidateMsg">Contact is required</string>
+    <string name="dateTimeValidateMsg">Date and Time is required</string>
+    <string name="unitValidateMsg">Apartment selection is required</string>
+    <string name="futureDateTimeValidateMsg">Please select 2 hours ahead in time</string>
+
+    <string name="titleWelcome">Welcome</string>
+    <string name="titleBookAppoint">Book Appoint</string>
+    <string name="titleConfirmAppoint">Confirm Appoint</string>
+    <string name="titleThankYou">Thank You!</string>
+
+    <string name="titleSelectApartment">Select Apartment</string>
+    <string name="NoApartmentAvailable">No Apartment is available for the selected criteria.</string>
+
+    <string name="toastFutureTime">Please select 2 hours ahead in time.</string>
+    <string name="toastDateTime">Date and time selection is required.</string>
+    <string name="toastAptTime">Apartment selection is required.</string>
+
+    <string name="Success"> Appointment Booked Successfully</string>
+    <string name="Name"> Name : </string>
+    <string name="Email">Email : </string>
+    <string name="Phone">Phone : </string>
+    <string name="Visit">Apartment to Visit : </string>
+    <string name="Type">Apartment Type : </string>
+    <string name="Time">Appointment Time : </string>
+
+</resources>

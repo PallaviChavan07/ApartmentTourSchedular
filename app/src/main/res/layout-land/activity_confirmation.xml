@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent">
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oak_wood_bg"
+    tools:context=".ConfirmationActivity">
+
+    <TextView
+        android:id="@+id/textConfirmationMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="8dp"
+        android:text="@string/textConfirmationMsg"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textConfirmationMsg">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/txtFirstNameMsg"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_column="1"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:text="@string/txtFirstNameMsg"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtFirstName"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_column="2"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="2"
+                android:background="@android:color/background_light"
+                android:gravity="center_vertical"
+                android:hint="Enter First Name ..."
+                android:paddingLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:inputType="text"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/txtLastNameMsg"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_column="1"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:text="@string/txtLastNameMsg"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtLastName"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_column="2"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="2"
+                android:background="@android:color/background_light"
+                android:gravity="center_vertical"
+                android:hint="Enter Last Name ..."
+                android:paddingLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:inputType="text"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/txtEmailMsg"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_column="1"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:text="@string/txtEmailMsg"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_column="2"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="2"
+                android:background="@android:color/background_light"
+                android:gravity="center_vertical"
+                android:hint="Enter Email ..."
+                android:inputType="textEmailAddress"
+                android:paddingLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/txtPhoneMsg"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_column="1"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:text="@string/txtPhoneMsg"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txtPhone"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_column="2"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="2"
+                android:background="@android:color/background_light"
+                android:gravity="center_vertical"
+                android:hint="Enter Phone Number ..."
+                android:inputType="phone"
+                android:paddingLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/btnConfirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2" />
+
+</android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>
